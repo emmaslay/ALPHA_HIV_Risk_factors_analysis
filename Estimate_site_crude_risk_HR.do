@@ -114,7 +114,6 @@ parmest, eform saving("${alphapath}/ALPHA/projects/gates_incidence_risks_2019/re
 	
 } /*close _rc loop */
 
-qui sendtoslack, url("https://hooks.slack.com/services/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") message("Crude HR- ${sitename} women `risk' completed")
 
 } /*close risk loop */
 
@@ -155,7 +154,6 @@ parmest, eform saving("${alphapath}/ALPHA/projects/gates_incidence_risks_2019/re
 	
 } /*close _rc loop */
 
-qui sendtoslack, url("https://hooks.slack.com/services/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") message("Crude HR- ${sitename} men `risk' completed")
 
 } /*close risk loop */
 
